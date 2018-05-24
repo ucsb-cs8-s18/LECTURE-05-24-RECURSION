@@ -27,7 +27,7 @@ def countchars(s):
   print(' first=',first,
         ' rest=',rest,
         ' countdict_rest=',countdict_rest)
-  return "stub"
+  return addOneToCount(countdict_rest,first)
   
   
 def test_countchars_base():
